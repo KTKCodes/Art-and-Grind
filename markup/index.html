@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Art & Grind</title>
+        <link rel="icon" type="image/x-icon" href="/assets/AGLogoimg.png">
         <link rel="stylesheet" href="../styles/styles.css">
 
     </head>
@@ -11,33 +12,45 @@
     <body>
       <header>
         <nav class="navbar">
-          <div> 
+
+          <div class="branding"> 
             <a href="index.html">
               <img class="logo" src="../assets/AGLogoimg.png" alt="Art & Grind Logo">
             </a>
           </div>
 
-          <ul class="nav-menu"> <!--Need to work out the dropdowns, add a btn in here, and a title (art + grind)-->
+          <ul class="nav-menu"> <!-- title (art + grind)-->
+
+            <li class="nav-btn">
+              <a href="work-with-us.html" class="nav-btn-link">Work With Us!</a>
+            </li>
+
             <li class="nav-item">
               <a href="about.html" class="nav-link">About</a>
             </li>
+
             <li class="nav-item">
               <a href="blog.html" class="nav-link">Blogs</a>
             </li>
-            <!-- <li class="dropdown">
-              <a>Events</a>
-              <ul class="dropdown-content">
-                <li><a href="calendar.html">Calendar</a></li>
-                <li><a href="muse-patron.html">Muse Patron Project</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a>Hire</a>
-              <ul class="dropdown-content">
-                <li><a href="easel-hire.html">Easel Hire</a></li>
-                <li><a href="room-hire.html">Room Hire</a></li>
-              </ul>
-            </li> -->
+
+            <div class="dropdown">
+              <button class="nav-link nav-item">Events
+              </button>
+              <div class="dropdown-content">
+                <a href="calendar.html">Calendar</a>
+                <a href="muse-patron.html">Muse Patron Project</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <button class="nav-link nav-item">Hire
+              </button>
+              <div class="dropdown-content">
+                <a href="easel-hire.html">Easel Hire</a>
+                <a href="room-hire.html">Room Hire</a>
+              </div>
+            </div>
+
             <li class="nav-item">
               <a href="photos.html" class="nav-link">Photos</a>
             </li>
